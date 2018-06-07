@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFf/ldE/dOJnI8=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFf/Y/ue9G/E+o=" name="Model1" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFf/ZAc6NHEb0c=" name="RegisterController" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFf/ZBBddHvCzU=" name="Account" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFf/ZBaE9IZeI4=" name="List" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+		<packagedElement xmi:id="AAAAAAFf/ZCLzdJEJJI=" name="Collaboration1" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+			<ownedMember xmi:id="AAAAAAFf/ZCLztJFggY=" name="Interaction1" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+				<lifeline xmi:id="AAAAAAFf/ZCiy9JVvL4=" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFf/ZCiy9JU2V8="/>
+				<lifeline xmi:id="AAAAAAFf/ZDQCdJ2oXk=" name="account" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFf/ZDQCdJ1iXg="/>
+				<lifeline xmi:id="AAAAAAFf/ZEMm9KXgKE=" name="_account" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFf/ZEMm9KWL7k="/>
+				<message xmi:id="AAAAAAFf/ZGUONK8pvg=" name="register" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="found" receiveEvent="AAAAAAFf/ldE/tOLhN0=">
+					<argument xmi:id="AAAAAAFf/ldE/tOMo5A=" xmi:type="uml:LiteralString" value="name"/>
+				</message>
+				<message xmi:id="AAAAAAFf/ZIAk9LUxco=" name="createAccount" visibility="public" xmi:type="uml:Message" messageSort="createMessage" messageKind="complete" receiveEvent="AAAAAAFf/ldE/tOOs1Y=" sendEvent="AAAAAAFf/ldE/tONDps="/>
+				<message xmi:id="AAAAAAFf/ZJTpNLrRmE=" name="setId" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFf/ldE/tOQOqg=" sendEvent="AAAAAAFf/ldE/tOP0ag=">
+					<argument xmi:id="AAAAAAFf/ldE/tORDB0=" xmi:type="uml:LiteralString" value="ID"/>
+				</message>
+				<message xmi:id="AAAAAAFf/ZKB4tMBFJk=" name="setName" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFf/ldE/tOT/rg=" sendEvent="AAAAAAFf/ldE/tOSslg=">
+					<argument xmi:id="AAAAAAFf/ldE/tOUvXE=" xmi:type="uml:LiteralString" value="nama"/>
+				</message>
+				<message xmi:id="AAAAAAFf/ZK1jNMXmXM=" name="setAge" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFf/ldE/tOWJOg=" sendEvent="AAAAAAFf/ldE/tOVZdY=">
+					<argument xmi:id="AAAAAAFf/ldE/tOXcE0=" xmi:type="uml:LiteralString" value="age"/>
+				</message>
+				<message xmi:id="AAAAAAFf/ZMFnNMv8r4=" name="add" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFf/ldE/tOZ/2Y=" sendEvent="AAAAAAFf/ldE/tOY8nc=">
+					<argument xmi:id="AAAAAAFf/ldE/tOaU0A=" xmi:type="uml:LiteralString" value="account"/>
+				</message>
+				<message xmi:id="AAAAAAFf/ZM3SdNKows=" name="showSucces" visibility="public" xmi:type="uml:Message" messageSort="reply" messageKind="lost" sendEvent="AAAAAAFf/ldE/tObknY="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOLhN0=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tONDps=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOOs1Y=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZDQCdJ2oXk="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOP0ag=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOQOqg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZDQCdJ2oXk="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOSslg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOT/rg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZDQCdJ2oXk="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOVZdY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOWJOg=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZDQCdJ2oXk="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOY8nc=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tOZ/2Y=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZEMm9KXgKE="/>
+				<fragment xmi:id="AAAAAAFf/ldE/tObknY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFf/ZCiy9JVvL4="/>
+			</ownedMember>
+			<ownedAttribute xmi:id="AAAAAAFf/ZCiy9JU2V8=" name="Role1" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFf/ZAc6NHEb0c=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFf/ZDQCdJ1iXg=" name="Role2" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFf/ZBBddHvCzU=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFf/ZEMm9KWL7k=" name="Role3" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFf/ZBaE9IZeI4=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>

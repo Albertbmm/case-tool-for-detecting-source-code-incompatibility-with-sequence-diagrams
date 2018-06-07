@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.1" xmlns:uml="http://schema.omg.org/spec/UML/2.0" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1">
+	<xmi:Documentation exporter="StarUML" exporterVersion="2.0"/>
+	<uml:Model xmi:id="AAAAAAFgKTUWmTofNiA=" xmi:type="uml:Model" name="RootModel">
+		<packagedElement xmi:id="AAAAAAFF+qBWK6M3Z8Y=" name="Model" visibility="public" xmi:type="uml:Model"/>
+		<packagedElement xmi:id="AAAAAAFgKSmrPDgiL2I=" name="Model1" visibility="public" xmi:type="uml:Model">
+			<packagedElement xmi:id="AAAAAAFgKSnCTTgnN8s=" name="OperatorPanel" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFgKSnOIzhQDYU=" name="ATM" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFgKSoyTjh97BI=" name="CashDispenser" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+			<packagedElement xmi:id="AAAAAAFgKSpobzio1i8=" name="NetworkToBank" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Class" isActive="false"/>
+		</packagedElement>
+		<packagedElement xmi:id="AAAAAAFgKSqdwDjUNrM=" name="Collaboration1" visibility="public" isAbstract="false" isFinalSpecialization="false" isLeaf="false" xmi:type="uml:Collaboration">
+			<ownedMember xmi:id="AAAAAAFgKSqdyDjVmAQ=" name="Interaction1" visibility="public" isReentrant="true" xmi:type="uml:Interaction">
+				<lifeline xmi:id="AAAAAAFgKSq2Gjjlpfk=" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFgKSq2GjjkY28="/>
+				<lifeline xmi:id="AAAAAAFgKSsZjjkJ/UA=" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFgKSsZjjkIdzE="/>
+				<lifeline xmi:id="AAAAAAFgKStVvjkqizo=" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFgKStVvjkpkt8="/>
+				<lifeline xmi:id="AAAAAAFgKSujRzlLLAI=" visibility="public" xmi:type="uml:Lifeline" represents="AAAAAAFgKSujRzlK2a8="/>
+				<message xmi:id="AAAAAAFgKTBYgzlyGI8=" name="switchOn" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzohzuw=" sendEvent="AAAAAAFgKTUWmzogcPU="/>
+				<message xmi:id="AAAAAAFgKTDRbjmoA04=" name="performStartUp" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzojMls=" sendEvent="AAAAAAFgKTUWmzoi+uo="/>
+				<message xmi:id="AAAAAAFgKTEpfznAXfg=" name="getInintialCash" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzolxts=" sendEvent="AAAAAAFgKTUWmzokl3E="/>
+				<message xmi:id="AAAAAAFgKTGSkTnYTV0=" name="initialCash" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzon9yY=" sendEvent="AAAAAAFgKTUWmzomQDQ="/>
+				<message xmi:id="AAAAAAFgKTHLjDnur4w=" name="setInitialCash" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzopFrU=" sendEvent="AAAAAAFgKTUWmzooQUw="/>
+				<message xmi:id="AAAAAAFgKTQJGToHmFs=" name="openConnection" visibility="public" xmi:type="uml:Message" messageSort="synchCall" messageKind="complete" receiveEvent="AAAAAAFgKTUWmzor194=" sendEvent="AAAAAAFgKTUWmzoq38o="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzogcPU=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSq2Gjjlpfk="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzohzuw=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzoi+uo=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzojMls=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzokl3E=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzolxts=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSq2Gjjlpfk="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzomQDQ=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSq2Gjjlpfk="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzon9yY=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzooQUw=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzopFrU=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKStVvjkqizo="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzoq38o=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSsZjjkJ/UA="/>
+				<fragment xmi:id="AAAAAAFgKTUWmzor194=" xmi:type="uml:OccurrenceSpecification" covered="AAAAAAFgKSujRzlLLAI="/>
+			</ownedMember>
+			<ownedAttribute xmi:id="AAAAAAFgKSq2GjjkY28=" name="Role1" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFgKSnCTTgnN8s=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFgKSsZjjkIdzE=" name="Role2" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFgKSnOIzhQDYU=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFgKStVvjkpkt8=" name="Role3" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFgKSoyTjh97BI=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+			<ownedAttribute xmi:id="AAAAAAFgKSujRzlK2a8=" name="Role4" visibility="public" isStatic="false" isLeaf="false" type="AAAAAAFgKSpobzio1i8=" isReadOnly="false" isOrdered="false" isUnique="false" xmi:type="uml:Property" aggregation="none" isDerived="false" isID="false"/>
+		</packagedElement>
+	</uml:Model>
+</xmi:XMI>
